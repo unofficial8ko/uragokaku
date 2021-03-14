@@ -17,9 +17,12 @@ h4 {
     background-color: pink;
 }
 
+/*
 .lastupdate {
     text-align: right;
+    font-size: 12px;
 }
+*/
 
 .HeaderIframe {
     display: block;
