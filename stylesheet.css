@@ -17,16 +17,14 @@ h4 {
     background-color: pink;
 }
 
-/*
 .lastupdate {
     text-align: right;
     font-size: 12px;
 }
-*/
 
 .HeaderIframe {
     display: block;
     width: 100%;
-    height: 300px;
-    border: "0";
+    height: 150px;
+    border: 0;
 }
