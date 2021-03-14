@@ -2,6 +2,7 @@ body {
     background-color: #FFFFFF;
     margin: 10px;
     padding: 10px;
+    font: sans-serif;
 }
 
 h4 {
@@ -14,4 +15,11 @@ header {
     border-style: solid none solid none;
     border-color: hotpink;
     background-color: pink;
+}
+
+.HeaderIframe {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 0;
 }
