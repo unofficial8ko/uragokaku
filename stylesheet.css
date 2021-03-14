@@ -9,12 +9,17 @@ h4 {
     border-bottom: 2px solid #CCCCCC;
 }
 
-header {
+.headline {
     text-align: center;
     border-width: 5px;
     border-style: solid none solid none;
     border-color: hotpink;
     background-color: pink;
+}
+
+.lastupdate {
+    text-align: right;
+    font-size: 12px;
 }
 
 .HeaderIframe {
