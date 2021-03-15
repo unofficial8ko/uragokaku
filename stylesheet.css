@@ -2,11 +2,26 @@ body {
     background-color: #FFFFFF;
     margin: 10px;
     padding: 10px;
-    font: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-h4 {
-    border-bottom: 2px solid #CCCCCC;
+h2 {
+    border-bottom: 3px solid #CCCCCC;
+    border-left: 15px solid #CCCCCC;
+    padding-left: 10px;
+}
+
+h3 {
+    max-width: 300px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 30px;
+}
+
+.h3exception {
+    font-size: large;
+    font-weight: bold;
+    max-width: 300px;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .headline {
@@ -27,4 +42,38 @@ h4 {
     width: 100%;
     height: 150px;
     border: 0;
+}
+
+.FooterIframe {
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 0;
+}
+
+.backtotop {
+    max-width: 300px;
+    border-top: 1px solid #CCCCCC;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.penname {
+    text-align: right;
+    font-size: 15px;
+    padding-top: -5px;
+}
+
+.anytable {
+    border-collapse: separate;
+    border-spacing: 12px 0px;
+    border-left: 5px solid #CCCCCC;
+}
+
+.entry-content h4 {
+    counter-increment: counter-h4;
+}
+
+.entry-content h4:before {
+    content: counter(counter-h4)". ";
 }
