@@ -16,29 +16,41 @@ h3:after {
     content: "";
     position: absolute;
     display: block;
-    width: 300px;
+    width: 275px;
     max-width: 300px;
     border-bottom: 1px solid #CCCCCC;
 }
 
 .entry-content h3:not(h3:nth-of-type(1)) {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
-.numbering h4 {
+.uromannumbering3 h3 {
+    counter-increment: counter-h3;
+}
+
+.uromannumbering3 h3:before {
+    content: counter(counter-h3, upper-roman)" ";
+}
+
+.numbering4 h4 {
     counter-increment: counter-h4;
 }
 
-.numbering h4:before {
+.numbering4 h4:before {
     content: counter(counter-h4)". ";
 }
 
-.numbering h4:not(h4:nth-of-type(1)) {
-    padding-top: 20px;
+.minicontent h4:not(h4:nth-of-type(1)) {
+    padding-top: 30px;
 }
 
-.notnumbering h4:not(h4:nth-of-type(1)) {
-    padding-top: 20px;
+.miniminicontent h5:not(h4:nth-of-type(1)) {
+    padding-top: 30px;
+}
+
+.miniminicontent {
+    padding-left: 5px;
 }
 
 .headline {
@@ -69,7 +81,7 @@ h3:after {
 }
 
 .backtotop {
-    max-width: 300px;
+    max-width: 275px;
     border-top: 1px solid #CCCCCC;
     margin-top: 40px;
     padding-top: 20px;
