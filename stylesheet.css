@@ -25,6 +25,14 @@ h3:after {
     padding-top: 30px;
 }
 
+.numbering3 h3 {
+    counter-increment: counter-h3;
+}
+
+.numbering3 h3:before {
+    content: counter(counter-h3)" ";
+}
+
 .uromannumbering3 h3 {
     counter-increment: counter-h3;
 }
