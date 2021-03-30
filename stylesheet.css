@@ -53,7 +53,7 @@ h3:after {
     padding-top: 30px;
 }
 
-.miniminicontent h5:not(h4:nth-of-type(1)) {
+.miniminicontent h5:not(h5:nth-of-type(1)) {
     padding-top: 30px;
 }
 
@@ -106,6 +106,48 @@ h3:after {
     border-spacing: 0px 3px;
 }
 
-table tr td:nth-of-type(1) {
-    padding-right: 10px;
+.mocktable tr td:nth-of-type(2),
+.mocktable tr td:nth-of-type(4),
+.mocktable tr td:nth-of-type(5) {
+    text-align: right;
+}
+
+.anytable tr th {
+    text-align: left;
+}
+
+.anytable tr th:not(th:nth-of-type(1)) {
+    padding-left: 14px;
+}
+
+.anytable tr td:not(td:nth-of-type(1)) {
+    padding-left: 14px;
+}
+
+.nowrap1 tr th:nth-of-type(1) {
+    white-space: nowrap;
+}
+
+.nowrap1 tr td:nth-of-type(1) {
+    white-space: nowrap;
+}
+
+.nowrap2 tr th:nth-of-type(2) {
+    white-space: nowrap;
+}
+
+.nowrap2 tr td:nth-of-type(2) {
+    white-space: nowrap;
+}
+
+.nowrap3 tr th:nth-of-type(3) {
+    white-space: nowrap;
+}
+
+.nowrap3 tr td:nth-of-type(3) {
+    white-space: nowrap;
+}
+
+.right3 tr td:nth-of-type(3) {
+    text-align: right;
 }
