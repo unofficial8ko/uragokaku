@@ -22,7 +22,7 @@ h3:after {
 }
 
 .entry-content h3:not(h3:nth-of-type(1)) {
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .numbering3 h3 {
@@ -50,11 +50,11 @@ h3:after {
 }
 
 .minicontent h4:not(h4:nth-of-type(1)) {
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .miniminicontent h5:not(h5:nth-of-type(1)) {
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .miniminicontent {
