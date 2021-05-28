@@ -160,7 +160,7 @@ h3:after {
     text-align: right;
 }
 
-.right5 tr td:nth-of-child(5) {
+.right5 tr td:nth-of-type(5) {
     text-align: right;
 }
 
